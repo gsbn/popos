@@ -1,14 +1,16 @@
-# Fonts Install
-echo "Downloading fonts..."
-wget -q --show-progress https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip -O ~/MesloInstall.zip
-echo "Copying fonts..."
-unzip -o -q ~/MesloInstall.zip -d ~/MesloInstall
-rm ~/MesloInstall.zip
-font_dir="$HOME/.local/share/fonts/Meslo/TrueType"
-mkdir -p $font_dir
-mv ~/MesloInstall/*.ttf $font_dir
-rm -r ~/MesloInstall
-fc-cache -f $font_dir
+if (whiptail --title "Posh Terminal" --yesno "Install Fonts as well?" 8 78 --defaultno); then
+    # Fonts Install
+    echo "Downloading fonts..."
+    wget -q --show-progress https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip -O ~/MesloInstall.zip
+    echo "Copying fonts..."
+    unzip -o -q ~/MesloInstall.zip -d ~/MesloInstall
+    rm ~/MesloInstall.zip
+    font_dir="$HOME/.local/share/fonts/Meslo/TrueType"
+    mkdir -p $font_dir
+    mv ~/MesloInstall/*.ttf $font_dir
+    rm -r ~/MesloInstall
+    fc-cache -f $font_dir
+fi
 
 # Oh My Posh - Basic Install
 sudo wget -q --show-progress https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh

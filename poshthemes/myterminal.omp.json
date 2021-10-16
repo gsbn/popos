@@ -12,7 +12,7 @@
           "style": "powerline",
           "foreground": "#ffffff",
           "background_templates": [
-            "{{if .SSHSession}}#D08770{{else}}#3E618C{{end}}"
+            "{{if .SSHSession}}#EB7B14{{else}}#3E618C{{end}}"
           ],
           "properties": {
             "prefix": " ",

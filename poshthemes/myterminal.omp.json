@@ -27,7 +27,8 @@
           "properties": {
             "prefix": " ",
             "display_host": false,
-            "display_user": true
+            "display_user": true,
+            "ssh_icon": ""
           }
         },
         {

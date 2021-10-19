@@ -1,2 +1,4 @@
 ### Install
-wget -O - https://raw.githubusercontent.com/gsbn/popos/main/setup.sh | bash
+wget -O - https://git.io/J6Coy | bash
+or
+wget -O - https://raw.githubusercontent.com/gsbn/popos/main/installer.sh | bash

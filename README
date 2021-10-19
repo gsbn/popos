@@ -1,4 +1,4 @@
 ### Install
-wget -O - https://git.io/J6Coy | bash
+bash <(curl -sSL https://git.io/J6Coy)
 or
-wget -O - https://raw.githubusercontent.com/gsbn/popos/main/installer.sh | bash
+bash <(curl -sSL https://raw.githubusercontent.com/gsbn/popos/main/installer.sh)

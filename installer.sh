@@ -48,7 +48,7 @@ function ohmyposhfonts() {
 
 function bashaliases() {
     echo -e "${BLUE}Downloading .bash_aliases from GitHub${NOCOLOR}"
-    wget -q --show-progress https://raw.githubusercontent.com/gsbn/popos/main/.bash_aliases -O ~/.bash_aliases
+    wget -q --show-progress https://raw.githubusercontent.com/gsbn/popos/main/home/.bash_aliases -O ~/.bash_aliases
     source ~/.bash_aliases
 }
 

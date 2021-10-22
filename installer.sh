@@ -44,6 +44,7 @@ function ohmyposhfonts() {
     rm -r ~/MesloInstall
     sudo apt-get install fontconfig
     fc-cache -f $font_dir
+    fc-cache -f -v
 }
 
 function bashaliases() {

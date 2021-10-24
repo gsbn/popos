@@ -1,33 +1,57 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-<style type="text/css">
-	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:url(#SVGID_2_);}
-	.st2{fill:url(#SVGID_3_);}
-</style>
-<g>
-	<g>
-		<g>
-			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="128" y1="14.4286" x2="128" y2="241.5714">
-				<stop offset="0" style="stop-color:#FFFFFF"/>
-				<stop offset="1" style="stop-color:#231F20"/>
-			</linearGradient>
-			<circle class="st0" cx="128" cy="128" r="113.57"/>
-		</g>
-	</g>
-	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="128" y1="231.1246" x2="128" y2="24.8754">
-		<stop offset="0" style="stop-color:#FFFFFF"/>
-		<stop offset="1" style="stop-color:#231F20"/>
-	</linearGradient>
-	<circle class="st1" cx="128" cy="128" r="103.12"/>
-	<radialGradient id="SVGID_3_" cx="128" cy="128" r="97.3043" gradientUnits="userSpaceOnUse">
-		<stop offset="0" style="stop-color:#32E72D"/>
-		<stop offset="1" style="stop-color:#3BC638"/>
-	</radialGradient>
-	<circle class="st2" cx="128" cy="128" r="97.3"/>
-	<g>
-		<rect x="107.89" y="67.71" width="40.07" height="13.99"/>
-		<rect x="107.89" y="89.76" width="40.07" height="13.99"/>
-		<polygon points="147.96,134.19 147.96,111.81 107.89,111.81 107.89,134.19 78.6,134.19 103.26,159.27 127.93,184.34 152.59,159.27 177.25,134.19"/>
-	</g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.131 80.131">
+<defs>
+    <clipPath id="e">
+        <path d="m14.429 128c0-62.724 50.847-113.57 113.57-113.57 62.723 0 113.57 50.847 113.57 113.57 0 62.723-50.849 113.57-113.57 113.57-62.724 0-113.57-50.849-113.57-113.57"/>
+    </clipPath>
+    <linearGradient id="b" x2="1" gradientTransform="matrix(0 -227.14 -227.14 0 128 241.57)" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#fff" offset="0"/>
+        <stop stop-color="#231f20" offset="1"/>
+    </linearGradient>
+    <clipPath id="d">
+        <path d="m24.875 128c0-56.954 46.171-103.12 103.12-103.12s103.12 46.171 103.12 103.12-46.171 103.12-103.12 103.12-103.12-46.17-103.12-103.12"/>
+    </clipPath>
+    <linearGradient id="c" x2="1" gradientTransform="matrix(0 206.25 206.25 0 128 24.875)" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#fff" offset="0"/>
+        <stop stop-color="#231f20" offset="1"/>
+    </linearGradient>
+    <clipPath id="g">
+        <path d="m30.695 128c0-53.739 43.565-97.305 97.305-97.305s97.305 43.566 97.305 97.305c0 53.74-43.565 97.304-97.305 97.304s-97.305-43.564-97.305-97.304"/>
+    </clipPath>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(97.304 0 0 -97.304 128 128)" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#32e72d" offset="0"/>
+        <stop stop-color="#3bc638" offset="1"/>
+    </radialGradient>
+    <clipPath id="f">
+        <path d="m0 256h256v-256h-256z"/>
+    </clipPath>
+</defs>
+
+<g transform="translate(-58.696 -66.359)">
+    <g transform="matrix(.35278 0 0 -.35278 53.606 151.58)">
+        <g>
+            <g clip-path="url(#e)">
+                <path d="m14.429 128c0-62.724 50.847-113.57 113.57-113.57 62.723 0 113.57 50.847 113.57 113.57 0 62.723-50.849 113.57-113.57 113.57-62.724 0-113.57-50.849-113.57-113.57" fill="url(#b)"/>
+            </g>
+        </g>
+        <g>
+            <g clip-path="url(#d)">
+                <path d="m24.875 128c0-56.954 46.171-103.12 103.12-103.12s103.12 46.171 103.12 103.12-46.171 103.12-103.12 103.12-103.12-46.17-103.12-103.12" fill="url(#c)"/>
+            </g>
+        </g>
+        <g>
+            <g clip-path="url(#g)">
+                <path d="m30.695 128c0-53.739 43.565-97.305 97.305-97.305s97.305 43.566 97.305 97.305c0 53.74-43.565 97.304-97.305 97.304s-97.305-43.564-97.305-97.304" fill="url(#a)"/>
+            </g>
+        </g>
+        <g>
+            <g clip-path="url(#f)">
+                <path d="m147.96 188.29h-40.071v-13.991h40.071z"/>
+                <path d="m147.96 166.24h-40.071v-13.991h40.071z"/>
+                <g transform="translate(147.96 121.81)">
+                    <path d="m0 0v22.386h-40.071v-22.386h-29.288l24.662-25.072 24.661-25.073 49.324 50.145z"/>
+                </g>
+            </g>
+        </g>
+    </g>
 </g>
 </svg>

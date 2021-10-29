@@ -38,13 +38,12 @@ function ohmyposhfonts() {
     sudo apt-get install unzip
     unzip -o -q ~/MesloInstall.zip -d ~/MesloInstall
     rm ~/MesloInstall.zip
-    font_dir="$HOME/.local/share/fonts/Meslo/TrueType"
-    mkdir -p $font_dir
-    mv ~/MesloInstall/*.ttf $font_dir
+    font_dir="/usr/share/fonts/truetype/meslo"
+    sudo mkdir -p $font_dir
+    sudo mv ~/MesloInstall/*.ttf $font_dir
     rm -r ~/MesloInstall
     sudo apt-get install fontconfig
-    fc-cache -f $font_dir
-    fc-cache -f -v
+    fc-cache -f
 }
 
 function bashaliases() {

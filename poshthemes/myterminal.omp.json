@@ -10,24 +10,16 @@
             "{{if .SSHSession}}#EB7B14{{else}}#3E618C{{end}}"
           ],
           "foreground": "#ffffff",
-          "properties": {
-            "display_host": true,
-            "display_user": false
-          },
           "style": "powerline",
-          "template": " {{ if .SSHSession }}\uf817 {{ end }}{{ .HostName }} ",
+          "template": " {{ if .SSHSession }}\uf817{{ else }}\uf878{{ end }} {{ .HostName }} ",
           "type": "session"
         },
         {
           "background": "#5E81AC",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
-          "properties": {
-            "display_host": false,
-            "display_user": true
-          },
           "style": "powerline",
-          "template": " {{ if .SSHSession }}{{ end }}{{ .UserName }} ",
+          "template": " {{ .UserName }} ",
           "type": "session"
         },
         {
